@@ -1,0 +1,21 @@
+testValidarMensagensCamposObrigatorios,name,email,password,mensagem
+                                      ,    ,usuariosemnome@teste.com,123456789,O campo Nome é obrigatório.
+                                      ,Elisa Marli,                 ,123456789,O campo E-mail é obrigatório.
+                                      ,Henrique Manoel,henriquemanoel@teste.com,,O campo Senha é obrigatório.
+                                      ,Maria,teste@teste.com.br,123456789,"Por favor, insira um nome completo."
+                                      ,João Carlos,teste teste.com,123456789,"Por favor, insira um e-mail válido."
+                                      ,Carla Maria,teste@teste.com,1234,A senha deve conter ao menos 8 caracteres.
+
+
+testCadastrarUsuarioComSucesso,name,email,password
+                              ,Cláudia Antônia Vera,teste@teste.com,12345678
+                              ,Ryan Pedro Peixoto,teste@teste.com,12345678
+                              ,Rafaela Camila,teste@teste.com,12345678
+                              ,Nelson Figueiredo,teste@teste.com,12345678
+
+
+testCadastrarEExcluirUsuario,name,email,password
+                            ,Cláudia Antônia Vera,teste@teste.com,12345678
+                            ,Ryan Pedro Peixoto,teste@teste.com,12345678
+                             ,Rafaela Camila,teste@teste.com,12345678
+                              ,Nelson Figueiredo,teste@teste.com,12345678
